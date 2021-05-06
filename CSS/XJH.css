@@ -1,0 +1,209 @@
+@charset "utf-8";
+#box{
+                width: 100%;
+                background-color: #fff;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            #div1_XJH{
+                width:80%;
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+            }
+            #div1_XJH img{
+                width: 2.5rem;
+            }
+            .text{
+                width:30%;
+                justify-content: center;
+                align-items: center;
+				line-height: 0.4rem;
+            }
+            .text h1{
+                font-size: 0.18rem;
+            }
+            .text h2{
+                font-size: 0.14rem;
+                color: #ccc;
+            }
+            .text p{
+				
+                font-size: 0.1rem;
+                line-height: 0.5rem;
+            }
+            #div2_XJH{
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+				margin-top: 2.5rem;
+				justify-content: center;
+            }
+            #div2_XJH h1{
+                font-size: 0.5rem;
+            }
+            #div2_XJH h2{
+                font-size: 0.3rem;
+                color: #ccc;
+				text-align: center;
+            }
+            #div2_XJH img{
+                width: 100%;
+            }
+            #div3_XJH{
+                width: 100%;	
+                display: flex;
+                align-items: center;
+				justify-content: center;
+				margin-top:2.5rem;
+            }
+            #div3_XJH img{
+                width: 80%;
+            }
+            #div4{
+                width:80%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+				margin-top:1.5rem;
+            }
+            #div4 h1,#div6 h1,#div7 h1,#div8 .text8 h1{
+                font-size: 0.5rem;
+                line-height:0.3rem;
+            }
+            #div4 h2,#div6 h2,#div7 h2,#div8 .text8 h2{
+                font-size: 0.3rem;
+                line-height: 0.6rem;
+                color: #ccc;
+            }
+            #div4 h3{
+                font-size: 0.12rem;
+                font-weight: bold;
+                line-height: 0.6rem;
+            }
+            #div4 p{
+                font-size: 0.12rem;
+                line-height: 0.6rem;
+            }
+            #div5{
+                width:80%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+				margin-top:1.5rem;
+            }
+            #div5 img{
+                width:70%;
+            }
+            #div5 div{
+                width:30%;
+				
+            }
+            #div5 p{
+                font-size: 0.12rem;
+                line-height:0.4rem;
+            }
+            #div6{
+                width:80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+				margin-top:2.5rem;
+            }
+            .text6{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            #div6 div{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+            #div6 div img{
+                width:25%;
+            }
+            #div7{
+                width:80%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content:space-around;
+				margin-top:2rem;
+            }
+			#div7 #Characteristics div img{
+				width:100%;
+			}
+			#div7 #Characteristics div p{
+				font-size:0.2rem;
+				line-height: 1rem;
+			}
+            #div7 .text7{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+            #div7 #Characteristics{
+                width:100%;
+                display: flex;
+                justify-content: space-between;
+            }
+            #div7 #Characteristics div{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 0.12rem;
+                line-height: 0.25rem;
+            }
+            #div8{
+                width:80%;
+                align-items: center;
+            }
+            #div8 .text8{
+				text-align: center;
+                align-items: center;
+            }
+            #div8 #planning #planTit{
+                font-size: .15rem;
+            }
+            #timeAxis{
+                width:60%;
+            }
+            #planning{
+				padding-left:1.1rem;
+                width:100%;
+            }
+			#plans{
+				width:100%;
+            }
+			#plans_1,#plans_2{
+			display: flex;
+			justify-content: space-between;
+			}
+			#plans_1,#plans_2 div{
+				text-align: center;
+			}
+			#plans_1,#plans_2 div p{
+				line-height:0.6rem;
+			}
+            #planText h1{
+                font-size: 0.3rem;
+                line-height:0.6rem;
+            }
+            #planText p{
+                font-size: 0.1rem;
+                line-height: 0.6rem;
+            }
+			#PlanBox{
+				display: flex;
+			}
